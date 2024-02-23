@@ -1,0 +1,37 @@
+
+.hero{
+    height: var(--hero-height);
+    background-image: url(../../assets/img/index-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    /* position: relative; */
+}
+
+.hero-shadow{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: var(--hero-height);
+    background-image: linear-gradient(to right, var(--dark-background)43%, transparent);
+}
+
+.hero-text{
+    margin-top:278px;
+    width: 630px;
+
+    color: var(--white-text);
+}
+
+.hero-text > h1, button {
+    margin-bottom: 20px;
+}
+
+.hero-text > p{
+    margin-bottom: 40px;
+}
+
+.phone-contact{
+    display: flex;
+    gap: 20px;
+}
