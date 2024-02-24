@@ -2,6 +2,8 @@
 .header{
     position: fixed;
     z-index: 10;
+    box-shadow: 0px 4px 4px var(--shadow);
+
 }
 
 .header .container{
@@ -30,6 +32,12 @@
 
 .navigation > ul > li {
     display: inline-block;
+}
+
+.navigation > ul > li > a{
+    padding: 16px 0;
+    cursor: pointer;
+    color: var(--white-text);
 }
 
 .navigation-button{

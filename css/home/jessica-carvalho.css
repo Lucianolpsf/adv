@@ -1,0 +1,27 @@
+.jessica-carvalho{
+    background-color: var(--medium-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jessica-carvalho-picture-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.jessica-carvalho-text h3{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.jessica-carvalho-text{
+    display: flex;
+    align-items: center;
+}
+
+.jessica-carvalho-text .action-button{
+    margin-top: 20px;
+}

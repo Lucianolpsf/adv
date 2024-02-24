@@ -1,18 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url(./home/navbar.css);
 @import url(./home/hero.css);
+@import url(./home/who-we-are.css);
+@import url(./home/jessica-carvalho.css);
+@import url(./home/services.css);
+@import url(./home/testimonials.css);
+@import url(./home/do-you-now.css);
+
+@import url(./home/footer.css);
 
 :root{
     --dark-gold:#9C711B;
     --ligth-gold: #FFE1B2;
+
+    --gold-text: #9C711B;
     --black-text: #000000;
     --white-text:#ffffff;
+
     --dark-background: #000000;
     --ligth-background: #ffffff;
+    --medium-background: #DFDFDF;
+
+    --shadow: rgba(0, 0, 0, 0.254);
 
     --hero-height: 940px;
 }
 
+/* html reset */
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +34,10 @@
     list-style: none;
     text-decoration: none;
     font-family: "Inter", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -30,11 +48,16 @@ h1 {
 h2{
     font-weight: 600; /*semi bold*/
     font-size: 36px;
+    text-transform: uppercase;
 }
 
 h3{
     font-weight: 500; /*medium*/
     font-size: 24px;
+}
+
+a{
+    cursor: pointer;
 }
 
 p{
@@ -57,6 +80,24 @@ main {
 section{
     margin: auto;
 }
+
+section:not(.hero){
+    padding-bottom: 90px;
+    padding-top: 60px;
+
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+article:not(.hero-text){
+    display: flex;
+    gap: 60px;
+}
+
 .container{
     min-width: 1280px;
     max-width: 1280px;
