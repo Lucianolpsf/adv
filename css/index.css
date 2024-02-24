@@ -23,7 +23,7 @@
 
     --shadow: rgba(0, 0, 0, 0.254);
 
-    --hero-height: 940px;
+    --hero-height: 94.0rem;
 }
 
 /* html reset */
@@ -38,22 +38,23 @@
 
 html{
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 h1 {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 4.8rem;
 }
 
 h2{
     font-weight: 600; /*semi bold*/
-    font-size: 36px;
+    font-size: 3.6rem;
     text-transform: uppercase;
 }
 
 h3{
     font-weight: 500; /*medium*/
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 a{
@@ -62,7 +63,7 @@ a{
 
 p{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 body{
@@ -79,29 +80,33 @@ main {
 
 section{
     margin: auto;
+    width: 100%;
 }
 
 section:not(.hero){
-    padding-bottom: 90px;
-    padding-top: 60px;
-
+    padding-bottom: 9.0rem;
+    padding-top: 6.0rem;
+    min-width: 128.0rem;
 }
 
 section h2 {
     text-align: center;
-    margin-bottom: 60px;
-    margin-top: 30px;
+    margin-bottom: 6.0rem;
+    margin-top: 3.0rem;
 }
 
 article:not(.hero-text){
     display: flex;
-    gap: 60px;
+    gap: 6.0rem;
+}
+
+footer{
+    width: 100%;
 }
 
 .container{
-    min-width: 1280px;
-    max-width: 1280px;
-    /* background-color: rgb(196, 196, 164); */
+    width: 100%;
+    max-width: 128.0rem;
 }
 
 .header, footer {
@@ -113,10 +118,10 @@ article:not(.hero-text){
 }
 
 button{
-    border-radius: 10px;
+    border-radius: 1.0rem;
     border: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: var(--black-text);
     background-image: linear-gradient(
         to right, 
@@ -138,6 +143,6 @@ button:hover{
 }
 
 .action-button{
-    width: 315px;
-    height: 60px;
+    width: 31.5rem;
+    height: 6.0rem;
 }

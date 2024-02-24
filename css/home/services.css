@@ -1,30 +1,30 @@
 .service-card-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px !important;
+    gap: 2.0rem !important;
 }
 
 .service-card{
     background-color: var(--medium-background);
-    padding: 20px;
-    min-width: 305px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 4px var(--shadow);
+    padding: 2.0rem;
+    min-width: 30.5rem;
+    border-radius: 1.0rem;
+    box-shadow: .4rem .4rem .4rem var(--shadow);
 }
 
 .service-card h3{
     color: var(--gold-text);
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     text-align: center;
 }
 
 .service-card > h3::before{
     content: "";
-    width: 15px;
-    height: 15px;
-    top: 30px;
-    left: -5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 3.0rem;
+    left: -.5rem;
     border-radius: 50%;
     background-color: var(--gold-text);
     position: absolute;
@@ -33,9 +33,9 @@
 .service-card > h3::after{
     content: "";
     width: 100%;
-    height: 2px;
-    top: 37px;
-    left: 5px;
+    height: .2rem;
+    top: 3.7rem;
+    left: .5rem;
     border-radius: 50%;
     background-color: var(--gold-text);
     position: absolute;
@@ -47,7 +47,7 @@
 }
 
 .service-card picture img{
-    width: 50px;
+    width: 5.0rem;
 }
 
 .card-whatsapp{

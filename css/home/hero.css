@@ -17,21 +17,21 @@
 }
 
 .hero-text{
-    margin-top:278px;
-    width: 630px;
+    margin-top:27.8rem;
+    width: 63.0rem;
 
     color: var(--white-text);
 }
 
 .hero-text > h1, button {
-    margin-bottom: 20px;
+    margin-bottom: 2.0rem;
 }
 
 .hero-text > p{
-    margin-bottom: 40px;
+    margin-bottom: 4.0rem;
 }
 
 .phone-contact{
     display: flex;
-    gap: 20px;
+    gap: 2.0rem;
 }

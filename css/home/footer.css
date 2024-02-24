@@ -1,5 +1,5 @@
 footer{
-    padding: 40px 0 30px 0;
+    padding: 4.0rem 0 3.0rem 0;
 }
 
 footer > .container{
@@ -11,18 +11,18 @@ footer > .container{
 .footer-text-container{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2.0rem;
     align-items: center;
 }
 
 .social-medias , .social-contact{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 2.0rem;
 }
 .social-contact > picture{
-    width: 32px;
-    height: 32px;
+    width: 3.2rem;
+    height: 3.2rem;
 }
 
 .container > .action-button{
@@ -30,8 +30,8 @@ footer > .container{
 }
 
 address{
-    font-size: 10px;
+    font-size: 1.0rem;
 }
 footer small{
-    font-size: 10px;
+    font-size: 1.0rem;
 }

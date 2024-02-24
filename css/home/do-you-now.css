@@ -10,17 +10,17 @@
 }
 
 .do-you-know .action-button{
-    margin: 20px 0 0 0;
+    margin: 2.0rem 0 0 0;
 }
 
 .question-card{
     background-color: var(--ligth-background);
-    margin-bottom: 20px;
-    border-radius: 7px;
-    padding: 20px 85px;
+    margin-bottom: 2.0rem;
+    border-radius: 0.7rem;
+    padding: 2.0rem 8.5rem;
     display: flex;
     flex-direction: column;
-    gap: 40px !important;
+    gap: 4.0rem !important;
 }
 
 .question-header-card{
@@ -30,9 +30,9 @@
 }
 
 .question-arrow{
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
+    width: 3.0rem;
+    height: 3.0rem;
+    border-radius: .5rem;
     transform: rotate(0deg);
     color: var(--white-text);
     background-color: var(--dark-background);
@@ -58,9 +58,9 @@
 .question-card:has(.view-answer) p::after{
     content: "";
     width: 100%;
-    height: 2px;
-    top: -20px;
-    left: 0px;
+    height: .2rem;
+    top: -2.0rem;
+    left: 0rem;
     border-radius: 50%;
     background-color: var(--black-text);
     position: absolute;

@@ -8,11 +8,11 @@
 .jessica-carvalho-picture-container{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 2.0rem;
 }
 
 .jessica-carvalho-text h3{
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 700;
     text-align: center;
 }
@@ -23,5 +23,5 @@
 }
 
 .jessica-carvalho-text .action-button{
-    margin-top: 20px;
+    margin-top: 2.0rem;
 }
