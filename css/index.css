@@ -6,11 +6,12 @@
 @import url(./home/services.css);
 @import url(./home/testimonials.css);
 @import url(./home/do-you-now.css);
-
+@import url(./home/contact-us.css);
 @import url(./home/footer.css);
 
 :root{
     --dark-gold:#9C711B;
+    --medium-gold: #DEC67E;
     --ligth-gold: #FFE1B2;
 
     --gold-text: #9C711B;
@@ -66,6 +67,10 @@ p{
     font-size: 1.6rem;
 }
 
+header{
+    padding: 0 3.6rem;
+}
+
 body{
     width: 100%;
     height: 100vh;
@@ -74,7 +79,7 @@ body{
     align-items: center;
 }
 
-main {
+main{
     width: 100%;
 }
 
