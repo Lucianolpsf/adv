@@ -13,6 +13,12 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
         <link rel="stylesheet" href="./css/index.css" />
 
+        <!-- links swiper -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
     </head>
     <body>
         <header class="header">
@@ -296,30 +302,41 @@
                 <h3>
                     Clientes que acreditaram e hoje são nosso case de sucesso
                 </h3>
+
                 <div class="container">
-                    <article>
-                        <div class="testmonials-card">
-                            <picture class="testimonials-avatar">
-                                <img src="./assets/img/direito27.png" alt="Foto avator do dono do comentario a seguir">
-                            </picture>
-                            <h3 class="testimonials-card-name">Exemplo da Silva</h3>
-                            <p>Incrivel como solucinoram rapido o meu processo, fui tratada com humanidade.</p>
+                    <div class="testimonials-slider-comments swiper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="swiper-wrapper">
+                            <div class="testmonials-card swiper-slide">
+                                <picture class="testimonials-avatar">
+                                    <img src="./assets/img/direito27.png" alt="Foto avator do dono do comentario a seguir">
+                                </picture>
+                                <h3 class="testimonials-card-name">Exemplo da Silva</h3>
+                                <p>Incrivel como solucinoram rapido o meu processo, fui tratada com humanidade.</p>
+                            </div>
+                            <div class="testmonials-card swiper-slide">
+                                <picture class="testimonials-avatar">
+                                    <img src="./assets/img/direito27.png" alt="Foto avator do dono do comentario a seguir">
+                                </picture>
+                                <h3 class="testimonials-card-name">Exemplo de Ferreira</h3>
+                                <p>Incrivel como solucinoram rapido o meu processo, fui tratada com humanidade.</p>
+                            </div>
+                            <div class="testmonials-card swiper-slide">
+                                <picture class="testimonials-avatar">
+                                    <img src="./assets/img/direito27.png" alt="Foto avator do dono do comentario a seguir">
+                                </picture>
+                                <h3 class="testimonials-card-name">Exemplo Lopes</h3>
+                                <p>Incrivel como solucinoram rapido o meu processo, fui tratada com humanidade.</p>
+                            </div>
+                            <div class="testmonials-card swiper-slide">
+                                <picture class="testimonials-avatar">
+                                    <img src="./assets/img/direito27.png" alt="Foto avator do dono do comentario a seguir">
+                                </picture>
+                                <h3 class="testimonials-card-name">Exemplo Nunes</h3>
+                                <p>Incrivel como solucinoram rapido o meu processo, fui tratada com humanidade.</p>
+                            </div>
                         </div>
-                        <div class="testmonials-card">
-                            <picture class="testimonials-avatar">
-                                <img src="./assets/img/direito27.png" alt="Foto avator do dono do comentario a seguir">
-                            </picture>
-                            <h3 class="testimonials-card-name">Exemplo da Silva</h3>
-                            <p>Incrivel como solucinoram rapido o meu processo, fui tratada com humanidade.</p>
-                        </div>
-                        <div class="testmonials-card">
-                            <picture class="testimonials-avatar">
-                                <img src="./assets/img/direito27.png" alt="Foto avator do dono do comentario a seguir">
-                            </picture>
-                            <h3 class="testimonials-card-name">Exemplo da Silva</h3>
-                            <p>Incrivel como solucinoram rapido o meu processo, fui tratada com humanidade.</p>
-                        </div>
-                    </article>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
                 <button class="action-button">Quero minha consultoria</button>
             </section>
@@ -433,4 +450,8 @@
             </div>
         </footer>
     </body>
+
+    <!-- Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
 </html>
