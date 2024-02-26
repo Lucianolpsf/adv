@@ -1,9 +1,6 @@
 @media screen and (max-width: 1360px){
 
     /*---------------------- General ------------------------*/
-    body{
-        overflow-x: hidden;
-    }
 
     h1 {
         font-size: 3.6rem;
@@ -102,7 +99,7 @@
     .hero-text{
         margin-left: 5rem;
         margin-top:15rem;
-        width: 73.0rem;
+        /* width: 73.0rem; */
     }
 
     .who-we-are article {
