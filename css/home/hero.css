@@ -34,4 +34,5 @@
 .phone-contact{
     display: flex;
     gap: 2.0rem;
+    flex-direction: row;
 }

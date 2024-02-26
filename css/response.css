@@ -1,0 +1,331 @@
+@media screen and (max-width: 1360px){
+
+    /*---------------------- General ------------------------*/
+    body{
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+    }
+    
+    h2{
+        font-size: 2.4rem;
+    }
+    
+    h3{
+        font-size: 1.6rem;
+    }
+    
+    p{
+        font-size: 1.4rem;
+    }
+
+    .container{
+        max-width: 98rem;
+    }
+
+    section:not(.hero){
+        min-width: 0;
+    }
+
+    article:not(.hero-text){
+        gap: 2.0rem;
+    }
+
+    /*--------------------- Navbar ----------------------*/
+    .logo >img{
+        width: 15rem;
+        height: auto;
+    }
+    
+    .navigation-button{
+        width: 25rem;
+        height: 4rem;
+        margin-bottom: 0;
+    }
+
+    /*--------------------- Who-we are ----------------------*/
+    .who-we-are article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .who-we-are article > div{
+
+        width: 50rem;
+     }
+
+    .who-we-are picture img{
+        max-width: 50rem;
+        width: 100%;
+    }
+
+    /*--------------------- Jessica carvalho ----------------------*/
+    .jessica-carvalho-picture img{
+        width: 17.0rem;
+        /* max-width: 100%; */
+        aspect-ratio: 4 / 9;
+        object-fit: cover;
+    }
+
+    /* ----------------------contact-us----------------------------------- */
+    .contact-us-title{
+        font-size: 3.6rem;
+    }
+
+    .map{
+        width: 45rem;
+    }
+
+/* ----------------------footer----------------------------------- */
+    footer .container .action-button{
+        width: 25rem;
+        height: 4rem;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px){
+
+    /*---------------------------- Navbar ---------------------*/
+    .navigation-button{
+        display: none;
+    }
+
+    /*---------------------------- Hero ---------------------*/
+    .hero , .hero-shadow{
+        height: 55rem;
+    }
+
+    .hero-text{
+        margin-left: 5rem;
+        margin-top:15rem;
+        width: 73.0rem;
+    }
+
+    .who-we-are article {
+        padding: 0 1.6rem;
+    }
+
+    /*---------------------------- Jessica carvalho ---------------------*/
+    .container article{
+        padding: 0 1.6rem;
+    }
+
+    .jessica-carvalho-text h3{
+        font-size: 3.6rem;
+    }
+
+    .jessica-carvalho-picture:nth-last-child(3){
+        display: none;
+    }
+
+    /*---------------------------- Do you know ---------------------*/
+    .do-you-know .container{
+        padding: 0 1.6rem;
+    }
+
+    .question-card{
+        padding: 1rem !important;
+    }
+
+    /* ----------------------contact-us----------------------------------- */
+    
+    .contact-us .container{
+        padding: 0 1.6rem;
+    }
+
+    .map{
+        width: 35rem;
+    }
+
+    /* ----------------------footer----------------------------------- */
+    footer .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer .container .action-button{
+        display: none;
+    }
+
+    footer .logo{
+        display: none;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 800px){
+    
+        /*---------------------- General ------------------------*/
+        h1 {
+            font-size: 2.4rem;
+        }
+        
+        h2{
+            font-size: 2rem;
+        }
+        
+        h3{
+            font-size: 1.4rem;
+        }
+        
+        p{
+            font-size: 1.2rem;
+            text-align: justify;
+        }
+    
+        section:not(.hero){
+            min-width: 0;
+            padding-bottom: 4rem;
+            padding-top: 0rem;
+        }
+
+        section h2{
+            margin-bottom: 3rem;
+        }
+    
+        article:not(.hero-text){
+            gap: 2.0rem;
+        }
+
+    /*---------- navbar--------- */
+    .header .container{
+        position: relative;
+    }
+
+    .header .container,
+    .navigation > ul    {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        height: 100%;
+    }
+
+    .navigation > ul > li {
+        /* padding: 1.5rem; */
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .navigation > ul > li > a{
+        display: block;
+        width: 100%;
+        padding: 0 0 1.6rem 0;
+    } 
+
+    .logo >img{
+        margin-top: 1rem;
+    }
+
+    .toggle-button{
+        display: block;
+    }
+
+    .toggle-nav {
+        background-color: black;
+        height: 100%;
+        display: none;
+    }
+
+
+    /* Hero */
+
+    .hero-text{
+        margin-left: 1rem;
+    }
+
+    .hero-text .action-button {
+        width: 24rem;
+    }
+
+    .hero-text img{
+        width: 3.2rem;
+    }
+
+    /* ----------- Who-we-are ------------- */
+    .who-we-are article {
+        padding: 0 1.6rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .who-we-are article > div{
+         width: 30rem;
+     }
+
+    .who-we-are picture img{
+        max-width: 30rem;
+        width: 100%;
+    }
+
+    /* ----------- Jessica-carvalho ------------- */
+    .jessica-carvalho article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jessica-carvalho-picture img{
+        width: 15.0rem;
+        /* max-width: 100%; */
+        aspect-ratio: 4 / 9;
+        object-fit: cover;
+    }
+    
+    /* ----------- Testmonials ------------- */
+
+    .testmonials{
+        /* display: none; */
+        appearance: none;
+        overflow: hidden;
+    }
+
+    .testmonials h3{
+        font-size: 2.4rem;
+    }
+
+        /* ----------------------contact-us----------------------------------- */
+    
+    .contact-us article{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .map{
+        width: 30rem;
+    }
+
+    .contact-us-text{
+        display: flex;
+        align-items: center;
+    }
+
+    /* -----------------footer------------ */
+    footer .container{
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+    }
+    
+    footer .container .action-button{
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .social-medias{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    address{
+        text-align: center;
+    }
+
+}

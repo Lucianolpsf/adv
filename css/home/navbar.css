@@ -16,6 +16,7 @@
 .logo >img{
     width: 26.1rem;
     height: 7.2rem;
+    padding-bottom: 1rem;
 }
 
 .navigation{
@@ -58,3 +59,47 @@
     height: 4.7rem;
     margin-bottom: 0;
 }
+
+.toggle-button{
+    display: none;
+    position: fixed;
+    right: 3.5rem;
+    top: 2.5rem;
+    width: 4rem;
+    height: .3rem;
+    background-image: linear-gradient(
+        to right, 
+        var(--dark-gold) 25%,
+        var(--ligth-gold),
+        var(--dark-gold)75%
+    );
+    cursor: pointer;
+    /* position: relative; */
+}
+
+.toggle-button::after,
+.toggle-button::before{
+    content: '';
+    width: 4rem;
+    height: .3rem;
+    background-image: linear-gradient(
+        to right, 
+        var(--dark-gold) 25%,
+        var(--ligth-gold),
+        var(--dark-gold)75%
+    );
+}
+
+.toggle-button::before{
+    top: 1rem;
+    right: 0rem;
+    position: absolute;
+
+}
+
+.toggle-button::after{
+    top: 2rem;
+    right: 0rem;
+    position: absolute;
+}
+

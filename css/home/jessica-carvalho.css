@@ -8,6 +8,7 @@
 .jessica-carvalho-picture-container{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 2.0rem;
 }
 
