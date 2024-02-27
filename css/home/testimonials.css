@@ -4,18 +4,16 @@
     align-items: center;
 }
 
-.testmonials h3 {
-    font-size: 4.8rem;
-    font-weight: 700;
+.testmonials-call {
     text-align: center;
 }
 
 .testmonials-card{
-    width: 41.3rem !important;
+    width: 37rem !important;
     height: 19.5rem;
     border-radius: .5rem;
-    padding: 4.0rem;
-    margin: 7.0em 0 4.0rem 0;
+    padding: 2rem;
+    margin: 7.0em 1rem 4.0rem 1rem;
     background-color: var(--medium-gold);
     box-shadow: .4rem .6rem 1.2rem var(--shadow);
     position: relative;
@@ -34,8 +32,9 @@
 
 .testimonials-card-name{
     font-weight: 600 !important;
-    font-size: 2.4rem !important;
+    font-size: 1.6rem !important;
     text-align: right !important;
+    margin-bottom: 3rem;
 }
 
 .testmonials .action-button{
