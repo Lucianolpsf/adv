@@ -46,7 +46,7 @@
     display: none;
 }
 
-.question-header-card:has(.view-answer) .question-arrow{
+.question-card:has(.view-answer) .question-arrow{
     transform: rotate(180deg);
 }
 

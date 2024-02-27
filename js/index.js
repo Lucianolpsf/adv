@@ -38,3 +38,24 @@
     });
   
   })()
+
+
+const navigation = document.querySelector('.navigation')
+const burgerMenu = document.querySelector('.toggle-menu')
+const questions = [...document.querySelectorAll('.question-header-card')]
+
+/* Funcionalidade de visualisar as respostas para cada pergunta*/
+questions.forEach(element => {
+  element.addEventListener('click', ()=> {
+    element.classList.toggle('view-answer')
+  })
+});
+
+/*--------------Funcionalidade de operar o menu humburger -------------*/
+burgerMenu.addEventListener('click', ()=>{
+  navigation.classList.toggle('toggle-nav')
+})
+
+navigation.addEventListener('click', ()=>{
+  navigation.classList.toggle('toggle-nav')
+})

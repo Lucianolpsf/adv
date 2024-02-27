@@ -60,6 +60,11 @@
     margin-bottom: 0;
 }
 
+.toggle-menu{
+    height: 8rem;
+    width: 4rem;
+}
+
 .toggle-button{
     display: none;
     position: fixed;
@@ -94,7 +99,6 @@
     top: 1rem;
     right: 0rem;
     position: absolute;
-
 }
 
 .toggle-button::after{
